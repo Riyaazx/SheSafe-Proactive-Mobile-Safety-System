@@ -1,0 +1,448 @@
+﻿00:00 +0: loading C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart
+00:00 +0: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: UserPreferences default values are sensible
+00:00 +1: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: UserPreferences toJson / fromJson round-trip
+00:00 +2: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: UserPreferences fromJson gracefully handles missing fields with defaults
+00:00 +3: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: UserPreferences copyWith changes only specified fields
+00:00 +4: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: UserPreferences unknown sensitivity enum value falls back to medium
+00:00 +5: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: WalkingPaceProfile typicalSpeedKmh converts correctly
+00:00 +6: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: WalkingPaceProfile isWithinNormalRange returns true for in-range speed
+00:00 +7: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: WalkingPaceProfile isWithinNormalRange returns false for out-of-range speed
+00:00 +8: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: WalkingPaceProfile toJson / fromJson round-trip
+00:00 +9: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: HomeLocation toJson / fromJson round-trip
+00:00 +10: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: HomeLocation copyWith preserves unchanged fields
+00:00 +11: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: UserProfile isFullyConfigured is false when nothing set
+00:00 +12: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: UserProfile isFullyConfigured is true when all three conditions met
+00:00 +13: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: UserProfile primaryContact returns the isPrimary contact
+00:00 +14: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: UserProfile primaryContact falls back to first when none flagged
+00:00 +15: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: UserProfile primaryContact is null when list is empty
+00:00 +16: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: UserProfile copyWith bumps updatedAt
+00:00 +17: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/models/user_profile_test.dart: UserProfile toJson / fromJson round-trip for non-sensitive fields
+00:00 +18: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: Arrival SMS body construction Body contains destination address
+00:00 +19: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: Arrival SMS body construction Body contains "safely arrived" wording
+00:00 +20: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: Arrival SMS body construction Body mentions SheSafe app for trust / context
+00:00 +21: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: Arrival SMS body construction Body uses user name when provided
+00:00 +22: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: Arrival SMS body construction Body falls back to first-person when userName is null
+00:00 +23: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: Arrival SMS body construction Body falls back to first-person when userName is blank
+00:00 +24: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: Arrival SMS body construction Body includes the safe-arrival emoji Γ£à
+00:00 +25: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: Arrival SMS body construction Body includes the destination pin emoji ≡ƒôì
+00:00 +26: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: Arrival SMS body construction Body handles long destination string without truncation
+00:00 +27: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: Arrival SMS body construction Body handles special characters in destination
+00:00 +28: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: Arrival radius configuration Arrival radius is 50 metres (sensible GPS drift tolerance)
+00:00 +29: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: Arrival radius configuration Arrival radius is > 0 (never zero ΓÇö would never trigger)
+00:00 +30: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: Arrival radius configuration Arrival radius is Γëñ 200 m (not absurdly large)
+00:00 +31: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: EventType contains arrivalNotificationSent arrivalNotificationSent is a valid EventType value
+00:00 +32: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: EventType contains arrivalNotificationSent EventType enum has not lost any previous values after addition
+00:00 +33: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: EventLog display helpers for arrivalNotificationSent typeName returns a human-readable label
+00:00 +34: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: EventLog display helpers for arrivalNotificationSent icon returns a non-null IconData
+00:00 +35: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: EventLog display helpers for arrivalNotificationSent outcomeColor for success is green
+00:00 +36: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: EventLog display helpers for arrivalNotificationSent outcomeLabel for success is "Success"
+00:00 +37: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: EventLog display helpers for arrivalNotificationSent Warning outcome for skipped notification
+00:00 +38: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: EventLog display helpers for arrivalNotificationSent Failure outcome for failed SMS launch
+00:00 +39: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/arrival_notification_test.dart: ArrivalNotificationService singleton Factory constructor returns the same instance
+00:00 +40: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: CrimeEvidence.fromCsvRow parses all 7 columns correctly
+00:01 +41: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: CrimeEvidence.fromCsvRow maps every known category string
+00:01 +42: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: CrimeEvidence.fromCsvRow severity 1 gives severityWeight 0.2
+00:01 +43: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: CrimeEvidence.fromCsvRow severity 5 gives severityWeight 1.0
+00:01 +44: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: CrimeEvidence.isRecent incident from yesterday is recent within 7-day window
+00:01 +45: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: CrimeEvidence.isRecent incident from 200 days ago is NOT recent within 180-day window
+00:01 +46: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: CrimeEvidence.isRecent incident exactly at boundary edge is still recent
+00:01 +47: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: AreaHotspot.riskScore 0 incidents ΓåÆ riskScore is 0
+00:01 +48: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: AreaHotspot.riskScore 10 incidents all severity 5 ΓåÆ riskScore is 100
+00:01 +49: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: AreaHotspot.riskScore 1 incident severity 3 gives expected score
+00:01 +50: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: AreaHotspot.riskScore density is capped at 10 incidents
+00:01 +51: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: AreaHotspot.explanationText includes area name and incident count
+00:01 +52: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: AreaHotspot.explanationText mentions most common crime category
+00:01 +53: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: AreaHotspot.explanationText singular "incident" for count = 1
+00:01 +54: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: AreaHotspot.evidenceSummary lists all categories in summary
+00:01 +55: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: CrimeRiskAssessment risk thresholds score 0 ΓåÆ not high risk, not medium risk
+00:01 +56: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: CrimeRiskAssessment risk thresholds score 29 ΓåÆ not medium risk
+00:01 +57: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: CrimeRiskAssessment risk thresholds score 30 ΓåÆ medium risk
+00:01 +58: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: CrimeRiskAssessment risk thresholds score 59 ΓåÆ medium risk, not high
+00:01 +59: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: CrimeRiskAssessment risk thresholds score 60 ΓåÆ high risk
+00:01 +60: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: CrimeRiskAssessment risk thresholds score 100 ΓåÆ high risk
+00:01 +61: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: CrimeCategory display names all categories have non-empty displayName
+00:01 +62: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: CrimeCategory display names all categories have non-empty icon
+00:01 +63: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: B2 pipeline simulation full pipeline: 3 recent incidents near Norwich centre score > 0
+00:01 +64: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/crime_evidence_service_test.dart: B2 pipeline simulation zero incidents near a remote location gives safe assessment
+00:01 +65: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: logEvent() and getAllEvents() stored event is retrievable
+00:01 +66: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: logEvent() and getAllEvents() events are ordered most-recent-first
+00:01 +67: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: logEvent() and getAllEvents() metadata map is persisted correctly
+00:01 +68: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: logEvent() and getAllEvents() multiple events are all persisted
+00:01 +69: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: logEvent() and getAllEvents() empty store returns empty list
+00:01 +70: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: filtering by type and outcome getEventsByType returns only matching type
+00:01 +71: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: filtering by type and outcome getEventsByOutcome returns only matching outcome
+00:01 +72: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: filtering by type and outcome getEventsByType returns empty list when type not present
+00:01 +73: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +74: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +75: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +76: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +77: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +78: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +79: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +80: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +81: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +82: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +83: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +84: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +85: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +86: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +87: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +88: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +89: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +90: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +91: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +92: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +93: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +94: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +95: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +96: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +97: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +98: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +98: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/motion_anomaly_test.dart: MotionBaselineService.scoreWindow() (setUpAll)
+00:02 +98: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +99: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +100: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +101: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +102: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +103: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +104: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +105: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +106: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +107: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +108: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +109: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +110: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:02 +111: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +111: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: initial state after initialize() stage is monitoring
+00:03 +112: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +112: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: initial state after initialize() trigger history is empty
+00:03 +113: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +113: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: initial state after initialize() countdown remaining is 0
+00:03 +114: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +114: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: initial state after initialize() sessionId matches the value passed to initialize()
+00:03 +115: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +115: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: triggerManualSOS() first press: monitoring ΓåÆ checkIn
+00:03 +116: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +116: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: triggerManualSOS() second press while in checkIn: checkIn ΓåÆ dispatching
+00:03 +117: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +117: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: triggerManualSOS() callback fires with correct trigger on both presses
+00:03 +118: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +118: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: triggerManualSOS() SOS followed by cancelAll ΓåÆ cancelled
+00:03 +119: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +119: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: triggerManualSOS() SOS is a no-op once already dispatching
+00:03 +120: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +120: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: triggerMotionAnomaly() first anomaly from monitoring ΓåÆ checkIn
+00:03 +121: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +121: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: triggerMotionAnomaly() second anomaly while in checkIn ΓåÆ countdown
+00:03 +122: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +122: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: triggerMotionAnomaly() anomaly while in countdown does NOT further escalate
+00:03 +123: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +123: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: triggerSafeWord() safe word from monitoring ΓåÆ dispatching immediately
+00:03 +124: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +124: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: triggerSafeWord() safe word from checkIn ΓåÆ dispatching
+00:03 +125: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +125: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: triggerSafeWord() safe word from countdown ΓåÆ dispatching
+00:03 +126: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +126: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: triggerSafeWord() safe word stores confidence value in metadata
+00:03 +127: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +127: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: respondOkay() and respondHelp() respondOkay from checkIn ΓåÆ cancelled
+00:03 +128: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +128: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: respondOkay() and respondHelp() respondHelp from checkIn ΓåÆ dispatching
+00:03 +129: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +129: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: respondOkay() and respondHelp() respondOkay from monitoring is a no-op
+00:03 +130: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +130: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: respondOkay() and respondHelp() respondHelp from monitoring is a no-op
+00:03 +131: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +131: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: respondOkay() and respondHelp() respondOkay from countdown ΓåÆ cancelled
+00:03 +132: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +132: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: terminal stages are locked cannot escalate after cancelled
+00:03 +133: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +133: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: terminal stages are locked markResolved from dispatching ΓåÆ resolved
+00:03 +134: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +134: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: terminal stages are locked cannot trigger anything after resolved
+00:03 +135: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +135: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: trigger-history deduplication consecutive identical triggers are not duplicated
+00:03 +136: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +136: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: trigger-history deduplication different trigger types are all recorded
+00:03 +137: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +137: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: buildAlertMetadata() includes sessionId, location, anomaly data, and safe-word confidence
+00:03 +138: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +138: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: buildAlertMetadata() metadata without GPS has null coordinates
+00:03 +139: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +139: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/panic_escalation_test.dart: buildAlertMetadata() triggerType matches the last recorded trigger
+00:03 +140: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +141: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +142: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +143: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +144: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +145: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +146: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +147: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +148: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +149: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +150: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +151: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +152: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +153: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +154: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +155: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +156: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +157: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:03 +158: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +159: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +160: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +161: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +162: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +163: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +164: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +165: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +166: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +167: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +168: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +169: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +170: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +171: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +172: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +173: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +174: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +175: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +176: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +177: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +178: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +179: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +180: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +181: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +182: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +183: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +184: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +185: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +186: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +187: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +188: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +189: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +190: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +191: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +192: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +193: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +194: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +195: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +196: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +197: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +198: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +199: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +200: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +201: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +202: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +203: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +204: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +205: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +206: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +207: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +208: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +209: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +210: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +211: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +212: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +213: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +214: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +215: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +216: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +217: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +218: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +219: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +220: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +221: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +222: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +223: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +224: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +225: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +226: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +227: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +228: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:04 +229: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +230: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +231: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +232: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +233: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +234: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +235: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +236: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +237: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +238: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +239: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +240: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +241: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +242: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +243: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +244: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +245: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +246: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +247: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +248: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +249: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +250: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +251: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +252: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +253: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +254: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +255: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +256: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +257: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +258: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +259: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +260: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +261: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +262: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +263: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +264: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +264: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: No GPS / location unavailable buildAlertMetadata with null lat/lon stores trigger correctly
+00:05 +265: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +265: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: No GPS / location unavailable buildAlertMetadata with null lat/lon stores trigger correctly
+00:05 +265: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: No GPS / location unavailable AlertMetadata.timestamp is always populated (not dependent on GPS)
+00:05 +266: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +266: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: No GPS / location unavailable AlertMetadata.timestamp is always populated (not dependent on GPS)
+00:05 +266: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: No GPS / location unavailable AlertMetadata stores anomaly info when motion data collected before GPS fails
+00:05 +267: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +267: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: No GPS / location unavailable AlertMetadata stores anomaly info when motion data collected before GPS fails
+00:05 +267: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Permissions denied Panic escalation via manualSOS works without sensor permissions
+00:05 +268: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +268: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Permissions denied Panic escalation via manualSOS works without sensor permissions
+00:05 +268: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Permissions denied Safe word error result does not crash escalation state machine
+00:05 +269: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +270: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +271: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +271: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: PanicEscalationService state machine robustness Terminal states (resolved, cancelled) ignore further triggers
+00:05 +272: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +272: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: PanicEscalationService state machine robustness Terminal states (resolved, cancelled) ignore further triggers
+00:05 +272: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: PanicEscalationService state machine robustness Duplicate consecutive triggers are deduplicated in history
+00:05 +273: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +273: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: PanicEscalationService state machine robustness Duplicate consecutive triggers are deduplicated in history
+00:05 +273: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: PanicEscalationService state machine robustness cancelAll() from monitoring ΓåÆ cancelled
+00:05 +274: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +274: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: PanicEscalationService state machine robustness cancelAll() from monitoring ΓåÆ cancelled
+00:05 +274: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: PanicEscalationService state machine robustness cancelAll() from checkIn ΓåÆ cancelled
+00:05 +275: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +275: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: PanicEscalationService state machine robustness cancelAll() from checkIn ΓåÆ cancelled
+00:05 +275: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: PanicEscalationService state machine robustness Safe word from monitoring ΓåÆ dispatching (bypasses checkIn)
+00:05 +276: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +276: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: PanicEscalationService state machine robustness Safe word from monitoring ΓåÆ dispatching (bypasses checkIn)
+00:05 +276: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: PanicEscalationService state machine robustness Safe word from checkIn ΓåÆ dispatching
+00:05 +277: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +277: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: PanicEscalationService state machine robustness Safe word from checkIn ΓåÆ dispatching
+00:05 +277: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Error propagation & stage guards triggerHistory preserves insertion order
+00:05 +278: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +278: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Error propagation & stage guards triggerHistory preserves insertion order
+00:05 +278: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Error propagation & stage guards respondOkay() from monitoring stage is a no-op
+00:05 +279: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +279: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Error propagation & stage guards respondHelp() from monitoring stage is a no-op
+00:05 +280: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +280: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Error propagation & stage guards markResolved() from non-dispatching stage is a no-op
+00:05 +281: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +281: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Error propagation & stage guards markResolved() from dispatching stage ΓåÆ resolved
+00:05 +282: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +282: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Error propagation & stage guards markResolved() from dispatching stage ΓåÆ resolved
+00:05 +282: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Error propagation & stage guards Initialize with new sessionId resets all state
+00:05 +283: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +283: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Error propagation & stage guards Initialize with new sessionId resets all state
+00:05 +284: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +285: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +286: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +286: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Group 6 ΓÇô Early uneasy stage: full E2E escalation path E2E FP path: motionAnomaly ΓåÆ checkIn ΓåÆ non-response ΓåÆ countdown ΓåÆ cancel
+00:05 +287: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +287: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Group 6 ΓÇô Early uneasy stage: full E2E escalation path E2E FP path: motionAnomaly ΓåÆ checkIn ΓåÆ non-response ΓåÆ countdown ΓåÆ cancel
+00:05 +287: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Group 6 ΓÇô Early uneasy stage: full E2E escalation path E2E emergency path: motionAnomaly ΓåÆ checkIn ΓåÆ countdown ΓåÆ dispatch ΓåÆ resolved
+00:05 +288: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +288: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Group 6 ΓÇô Early uneasy stage: full E2E escalation path E2E emergency path: motionAnomaly ΓåÆ checkIn ΓåÆ countdown ΓåÆ dispatch ΓåÆ resolved
+00:05 +288: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Group 6 ΓÇô Early uneasy stage: full E2E escalation path E2E: anomaly score and consecutive windows are preserved in final metadata
+00:05 +289: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:05 +289: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/system_resilience_test.dart: Group 6 ΓÇô Early uneasy stage: full E2E escalation path E2E: anomaly score and consecutive windows are preserved in final metadata
+00:06 +289: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö profile lifecycle hasProfile returns false before createProfile()
+00:06 +290: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +290: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö profile lifecycle createProfile() creates a valid profile
+00:06 +291: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +291: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö profile lifecycle hasProfile returns true after createProfile()
+00:06 +292: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +292: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö profile lifecycle loadProfile returns null on fresh install
+00:06 +293: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +293: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö profile lifecycle loadProfile returns full profile after setup
+00:06 +294: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +294: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö profile lifecycle deleteProfile wipes everything
+00:06 +295: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +295: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö safe word correct word verifies as true
+00:06 +296: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +296: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö safe word wrong word verifies as false
+00:06 +297: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +298: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +299: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +300: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +301: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +302: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +303: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +304: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +305: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +306: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +307: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +308: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +309: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +310: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +311: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events never stores more than 500 events
+00:06 +311: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö safe word safe word is case-sensitive
+00:06 +312: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö safe word safe word is case-sensitive
+00:07 +313: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:07 +313: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö safe word same word re-enrolled produces different hash (different salt)
+00:07 +314: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:07 +314: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö safe word raw word is never written to storage
+00:07 +315: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:07 +315: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö safe word clearSafeWord removes hash and salt
+00:07 +316: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:07 +316: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö walking pace saveWalkingPace and getWalkingPace round-trip
+00:07 +317: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:07 +317: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö walking pace walking pace appears in loadProfile()
+00:07 +318: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:07 +318: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö trusted contacts saveTrustedContacts and getTrustedContacts round-trip
+00:07 +319: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:07 +319: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö trusted contacts contact data is stored encrypted (not plaintext JSON in store)
+00:07 +320: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:07 +320: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö trusted contacts overwriting contacts replaces the full list
+00:07 +321: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:07 +321: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö home location saveHomeLocation and getHomeLocation round-trip
+00:07 +322: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:07 +322: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö home location clearHomeLocation removes the location
+00:07 +323: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:07 +323: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö home location home location key is scoped to userId
+00:07 +324: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:07 +324: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö preferences savePreferences and getPreferences round-trip
+00:07 +325: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:07 +325: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/user_profile_service_test.dart: UserProfileService ΓÇö preferences getPreferences returns defaults when nothing saved
+00:07 +326: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:08 +327: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:08 +328: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:08 +329: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:08 +330: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:08 +331: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:08 +332: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:08 +333: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:08 +334: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:08 +335: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:08 +336: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:09 +336: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/widgets/home_screen_test.dart: HomeScreen rendering builds without throwing
+00:09 +337: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:09 +338: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:09 +339: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:09 +340: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:09 +341: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:09 +342: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:10 +343: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:10 +343: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/widgets/home_screen_test.dart: HomeScreen interactions submitting empty destination shows inline error
+00:10 +344: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:10 +344: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/widgets/home_screen_test.dart: HomeScreen interactions tapping Fake Phone Call navigates to FakeCallScreen
+00:10 +345: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: storage cap at 500 events oldest events are discarded first when cap is exceeded
+00:15 +346: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: export ΓÇö sensitive key redaction text export does not leak lat/lon values
+00:15 +347: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: export ΓÇö sensitive key redaction text export does not leak phone number value
+00:15 +348: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: export ΓÇö sensitive key redaction text export always includes the event description
+00:15 +349: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: export ΓÇö sensitive key redaction JSON export also redacts sensitive keys
+00:15 +350: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: clearAllEvents() removes all stored events
+00:15 +351: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: clearAllEvents() further logging works normally after clear
+00:15 +352: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: getStatistics() returns a non-empty map
+00:15 +353: C:/Users/ria81/OneDrive - Coventry University/Dissertation/safety_app/test/services/event_log_service_test.dart: getStatistics() totalEvents count matches number of logged events
+00:15 +354: All tests passed!
