@@ -1,0 +1,71 @@
+# SheSafe Risk Zone Dataset (Generated using LatinHypercube Sampling)
+# Generated: 2026-02-22 23:44:09
+# Method: scipy.stats.qmc.LatinHypercube (quasi-random spatial distribution)
+# Study Area: Norwich, UK (Lat: 52.6-52.66, Lon: 1.25-1.35)
+# Sample Size: 50 zones
+# Risk Model: Weighted combination of urban density, transport proximity, nightlife zones
+# 
+# Columns:
+# - latitude, longitude: WGS84 coordinates
+# - radius_meters: Influence radius of the risk zone
+# - risk_level: Categorical (low, medium, high)
+# - risk_score: Numeric (0-100, higher = more risk)
+# - severity: Integer scale (1=low, 3=medium, 5=high)
+# - zone_name: Human-readable location identifier
+# - description: Environmental/contextual risk factors
+#
+# Academic Justification:
+# LatinHypercube sampling provides better spatial coverage than simple random sampling,
+# ensuring representative distribution across the study area without clustering artifacts.
+#
+latitude,longitude,radius_meters,risk_level,risk_score,severity,zone_name,description
+52.629007,1.288737,376,high,92.13,5,Central Dark Lane,Isolated area with low pedestrian traffic
+52.63737,1.300605,351,high,83.87,5,Central Isolated Footpath,Historical reports of anti-social behavior
+52.633238,1.298739,344,high,81.48,5,Central Alleyway,Poorly lit with limited natural surveillance
+52.636848,1.306676,327,high,75.9,5,Market Area Area,Isolated area with low pedestrian traffic
+52.619837,1.303621,305,high,68.66,5,Central Isolated Footpath,Poorly lit with limited natural surveillance
+52.620838,1.296893,285,medium,61.81,3,Central Car Park,Mix of residential and commercial properties
+52.62464,1.281912,275,medium,58.44,3,West Residential Area,Mix of residential and commercial properties
+52.623203,1.309187,266,medium,55.64,3,East Car Park,Occasional reports of opportunistic crime
+52.640542,1.323183,251,medium,50.34,3,North East Side Street,Mix of residential and commercial properties
+52.618675,1.274335,234,medium,44.68,3,West Park Edge,Mix of residential and commercial properties
+52.639406,1.314998,232,medium,44.21,3,North East Car Park,Mix of residential and commercial properties
+52.651068,1.295546,229,medium,43.25,3,North Side Street,Street lighting present but may be insufficient at night
+52.64176,1.329985,223,medium,41.25,3,North East Car Park,Mix of residential and commercial properties
+52.608435,1.320214,221,medium,40.61,3,South East Car Park,Mix of residential and commercial properties
+52.605329,1.311392,218,low,39.46,1,South East Lit Pathway,Regular police patrols and CCTV coverage
+52.634687,1.334049,214,low,38.27,1,East Lit Pathway,Active commercial area with visible security
+52.630534,1.333872,202,low,34.01,1,East Shopping District,Active commercial area with visible security
+52.613401,1.28239,200,low,33.59,1,South West Main Road,Active commercial area with visible security
+52.617106,1.316065,199,low,33.3,1,South East Shopping District,Well-lit main thoroughfare with high foot traffic
+52.646763,1.267127,197,low,32.64,1,North West Main Road,Active commercial area with visible security
+52.64229,1.285291,195,low,31.76,1,North West Main Road,Active commercial area with visible security
+52.63156,1.325375,190,low,30.31,1,East Lit Pathway,Well-lit main thoroughfare with high foot traffic
+52.601466,1.287611,185,low,28.66,1,South Public Square,Active commercial area with visible security
+52.627444,1.263049,179,low,26.55,1,West Shopping District,Well-lit main thoroughfare with high foot traffic
+52.615933,1.253076,177,low,25.97,1,South West Public Square,Open public space with good natural surveillance
+52.606766,1.279825,177,low,25.95,1,South West Lit Pathway,Active commercial area with visible security
+52.647846,1.319099,173,low,24.41,1,North East Shopping District,Well-lit main thoroughfare with high foot traffic
+52.645155,1.326146,167,low,22.65,1,North East Main Road,Well-lit main thoroughfare with high foot traffic
+52.612256,1.27667,165,low,21.76,1,South West Shopping District,Regular police patrols and CCTV coverage
+52.621887,1.256428,164,low,21.37,1,West Main Road,Well-lit main thoroughfare with high foot traffic
+52.653465,1.291238,161,low,20.53,1,North Shopping District,Well-lit main thoroughfare with high foot traffic
+52.628632,1.331771,156,low,18.95,1,East Public Square,Well-lit main thoroughfare with high foot traffic
+52.609823,1.265666,152,low,17.45,1,South West Lit Pathway,Regular police patrols and CCTV coverage
+52.611198,1.339058,149,low,16.41,1,South East Lit Pathway,Active commercial area with visible security
+52.603776,1.313532,148,low,16.31,1,South East Shopping District,Regular police patrols and CCTV coverage
+52.643471,1.341122,145,low,15.27,1,North East Main Road,Well-lit main thoroughfare with high foot traffic
+52.625554,1.250439,145,low,15.09,1,West Lit Pathway,Regular police patrols and CCTV coverage
+52.615135,1.337423,143,low,14.65,1,South East Public Square,Well-lit main thoroughfare with high foot traffic
+52.659332,1.292432,141,low,13.79,1,North Lit Pathway,Open public space with good natural surveillance
+52.603417,1.342607,134,low,11.62,1,South East Lit Pathway,Active commercial area with visible security
+52.654381,1.26972,134,low,11.4,1,North West Lit Pathway,Well-lit main thoroughfare with high foot traffic
+52.657049,1.254863,126,low,8.71,1,North West Public Square,Active commercial area with visible security
+52.650215,1.270634,122,low,7.5,1,North West Main Road,Well-lit main thoroughfare with high foot traffic
+52.652528,1.26066,114,low,4.75,1,North West Shopping District,Well-lit main thoroughfare with high foot traffic
+52.658773,1.30582,113,low,4.43,1,North Lit Pathway,Active commercial area with visible security
+52.648809,1.345259,111,low,3.87,1,North East Public Square,Regular police patrols and CCTV coverage
+52.655722,1.27247,107,low,2.57,1,North West Lit Pathway,Open public space with good natural surveillance
+52.63593,1.349437,102,low,0.68,1,East Main Road,Active commercial area with visible security
+52.607627,1.258354,100,low,0.0,1,South West Lit Pathway,Active commercial area with visible security
+52.601058,1.346076,100,low,0.0,1,South East Shopping District,Well-lit main thoroughfare with high foot traffic

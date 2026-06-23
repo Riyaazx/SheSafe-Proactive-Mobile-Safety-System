@@ -1,0 +1,125 @@
+# SheSafe Crime Evidence Dataset (Generated using LatinHypercube Sampling)
+# Generated: 2026-02-22 23:48:27
+# Method: scipy.stats.qmc.LatinHypercube with hotspot biasing
+# Study Area: Norwich, UK (Lat: 52.6-52.66, Lon: 1.25-1.35)
+# Date Range: 2025-08-26 to 2026-02-22 (180 days)
+# Sample Size: 100 incidents
+#
+# Data Generation Approach:
+# 1. LatinHypercube sampling for base spatial distribution
+# 2. Hotspot biasing (60% cluster near known high-risk areas)
+# 3. Category distribution based on UK Police statistics
+# 4. Temporal patterns (recent dates weighted)
+#
+# Academic Justification:
+# This is a SEMI-SYNTHETIC dataset modeling realistic crime geography.
+# It is NOT real police data, but uses evidence-based patterns from:
+# - UK Police Data API category distributions
+# - Known urban crime hotspot theory
+# - Environmental criminology principles
+#
+# Use Case:
+# Demonstrates the system's ability to integrate historical crime evidence
+# into route risk assessment and safety explanations.
+#
+latitude,longitude,category,date,severity,area_name,description
+52.635679,1.304179,theft,2026-02-20,3,Chapel Field,Bicycle theft in Chapel Field area
+52.644942,1.254097,robbery,2026-02-10,5,North Norwich,Phone robbery near North Norwich
+52.637352,1.336738,theft,2026-02-07,4,North Norwich,Wallet stolen from North Norwich visitor
+52.617738,1.299301,robbery,2026-02-02,5,St Stephens Street,Phone robbery near St Stephens Street
+52.622126,1.278169,harassment,2026-02-02,3,Central Norwich,Unwanted approach reported in Central Norwich
+52.617545,1.304991,assault,2026-01-23,5,St Stephens Street,Physical assault reported in St Stephens Street
+52.620225,1.307485,robbery,2026-01-23,4,Central Norwich,Armed robbery at Central Norwich
+52.62053,1.339917,robbery,2026-01-20,5,Central Norwich,Phone robbery near Central Norwich
+52.616955,1.295266,harassment,2026-01-18,2,St Stephens Street,Verbal intimidation near St Stephens Street
+52.628646,1.288064,assault,2026-01-15,4,Central Norwich,Alcohol-related assault in Central Norwich
+52.637776,1.31006,theft,2026-01-15,2,Chapel Field,Wallet stolen from Chapel Field visitor
+52.62006,1.299532,theft,2026-01-14,2,St Stephens Street,Wallet stolen from St Stephens Street visitor
+52.626209,1.315169,theft,2026-01-08,4,St Stephens Street,Bicycle theft in St Stephens Street area
+52.636052,1.292723,robbery,2026-01-06,4,Chapel Field,Phone robbery near Chapel Field
+52.600918,1.330811,assault,2026-01-06,3,South Norwich,Unprovoked assault near South Norwich
+52.62956,1.302431,harassment,2026-01-01,4,Norwich Railway Station,Street harassment incident in Norwich Railway Station
+52.622532,1.273619,harassment,2025-12-31,4,Central Norwich,Verbal intimidation near Central Norwich
+52.633951,1.29872,harassment,2025-12-30,4,Chapel Field,Following and harassment in Chapel Field
+52.657245,1.260977,theft,2025-12-29,2,North Norwich,Bag theft reported in North Norwich
+52.61904,1.324031,harassment,2025-12-29,4,Central Norwich,Street harassment incident in Central Norwich
+52.630921,1.281404,theft,2025-12-28,2,Prince of Wales Road,Wallet stolen from Prince of Wales Road visitor
+52.632173,1.299022,assault,2025-12-28,3,Chapel Field,Unprovoked assault near Chapel Field
+52.652953,1.262032,theft,2025-12-28,3,North Norwich,Bag theft reported in North Norwich
+52.639525,1.286477,drug_activity,2025-12-27,2,Chapel Field,Drug dealing observed in Chapel Field
+52.635183,1.282074,robbery,2025-12-26,5,Prince of Wales Road,Armed robbery at Prince of Wales Road
+52.625773,1.305591,assault,2025-12-25,5,St Stephens Street,Late-night altercation in St Stephens Street
+52.617469,1.296902,assault,2025-12-21,4,St Stephens Street,Late-night altercation in St Stephens Street
+52.625537,1.305929,robbery,2025-12-21,4,St Stephens Street,Mugging reported in St Stephens Street
+52.64668,1.335993,assault,2025-12-20,5,North Norwich,Alcohol-related assault in North Norwich
+52.623224,1.293338,theft,2025-12-19,2,Central Norwich,Phone snatched in Central Norwich
+52.632301,1.301459,theft,2025-12-18,2,Chapel Field,Phone snatched in Chapel Field
+52.62589,1.281924,robbery,2025-12-18,5,Prince of Wales Road,Mugging reported in Prince of Wales Road
+52.624121,1.285187,theft,2025-12-18,4,Prince of Wales Road,Wallet stolen from Prince of Wales Road visitor
+52.629838,1.280749,robbery,2025-12-17,4,Prince of Wales Road,Phone robbery near Prince of Wales Road
+52.642866,1.329216,assault,2025-12-17,5,North Norwich,Alcohol-related assault in North Norwich
+52.635875,1.30059,robbery,2025-12-16,4,Chapel Field,Armed robbery at Chapel Field
+52.601301,1.298195,theft,2025-12-14,4,South Norwich,Wallet stolen from South Norwich visitor
+52.637646,1.311004,theft,2025-12-13,2,Chapel Field,Phone snatched in Chapel Field
+52.620621,1.314302,assault,2025-12-10,5,St Stephens Street,Unprovoked assault near St Stephens Street
+52.621582,1.310712,assault,2025-12-07,5,St Stephens Street,Unprovoked assault near St Stephens Street
+52.631573,1.306092,theft,2025-12-04,4,Chapel Field,Bag theft reported in Chapel Field
+52.636526,1.2934,theft,2025-12-04,2,Chapel Field,Wallet stolen from Chapel Field visitor
+52.61918,1.294942,robbery,2025-12-02,5,St Stephens Street,Mugging reported in St Stephens Street
+52.617322,1.318524,theft,2025-12-02,4,Central Norwich,Bicycle theft in Central Norwich area
+52.639702,1.338192,theft,2025-12-01,4,North Norwich,Wallet stolen from North Norwich visitor
+52.633315,1.280044,assault,2025-11-30,4,Prince of Wales Road,Unprovoked assault near Prince of Wales Road
+52.630344,1.282363,drug_activity,2025-11-29,3,Prince of Wales Road,Drug dealing observed in Prince of Wales Road
+52.619841,1.308225,harassment,2025-11-28,2,St Stephens Street,Following and harassment in St Stephens Street
+52.636407,1.312275,drug_activity,2025-11-27,1,Chapel Field,Drug dealing observed in Chapel Field
+52.617933,1.298366,theft,2025-11-27,4,St Stephens Street,Wallet stolen from St Stephens Street visitor
+52.624488,1.285653,robbery,2025-11-25,4,Prince of Wales Road,Armed robbery at Prince of Wales Road
+52.625254,1.315569,theft,2025-11-24,3,St Stephens Street,Phone snatched in St Stephens Street
+52.626001,1.274594,theft,2025-11-22,3,Central Norwich,Phone snatched in Central Norwich
+52.637017,1.311335,theft,2025-11-22,3,Chapel Field,Wallet stolen from Chapel Field visitor
+52.639462,1.289963,theft,2025-11-21,3,North Norwich,Phone snatched in North Norwich
+52.63115,1.299931,drug_activity,2025-11-21,2,Chapel Field,Drug paraphernalia found in Chapel Field
+52.645535,1.291328,theft,2025-11-21,3,North Norwich,Phone snatched in North Norwich
+52.623447,1.280365,assault,2025-11-19,4,Prince of Wales Road,Unprovoked assault near Prince of Wales Road
+52.638452,1.287116,harassment,2025-11-18,3,Chapel Field,Following and harassment in Chapel Field
+52.618401,1.322479,harassment,2025-11-14,2,Central Norwich,Verbal intimidation near Central Norwich
+52.612338,1.250167,robbery,2025-11-14,4,South Norwich,Phone robbery near South Norwich
+52.624993,1.284082,robbery,2025-11-13,5,Prince of Wales Road,Armed robbery at Prince of Wales Road
+52.61902,1.296659,theft,2025-11-13,3,St Stephens Street,Wallet stolen from St Stephens Street visitor
+52.619985,1.299026,assault,2025-11-10,5,St Stephens Street,Alcohol-related assault in St Stephens Street
+52.623943,1.256024,robbery,2025-11-10,5,Central Norwich,Mugging reported in Central Norwich
+52.618093,1.29345,assault,2025-11-07,5,St Stephens Street,Alcohol-related assault in St Stephens Street
+52.606038,1.312759,assault,2025-11-06,3,South Norwich,Alcohol-related assault in South Norwich
+52.632944,1.301164,theft,2025-11-06,4,Chapel Field,Bicycle theft in Chapel Field area
+52.62507,1.307816,theft,2025-11-05,3,St Stephens Street,Wallet stolen from St Stephens Street visitor
+52.637277,1.310828,assault,2025-11-03,5,Chapel Field,Unprovoked assault near Chapel Field
+52.622063,1.307084,assault,2025-11-02,5,St Stephens Street,Late-night altercation in St Stephens Street
+52.643539,1.267008,assault,2025-11-01,4,North Norwich,Alcohol-related assault in North Norwich
+52.637959,1.299245,assault,2025-10-28,5,Chapel Field,Unprovoked assault near Chapel Field
+52.607002,1.266855,theft,2025-10-27,4,South Norwich,Wallet stolen from South Norwich visitor
+52.639241,1.288838,drug_activity,2025-10-25,3,Chapel Field,Drug paraphernalia found in Chapel Field
+52.639005,1.287645,harassment,2025-10-23,4,Chapel Field,Following and harassment in Chapel Field
+52.624586,1.31591,theft,2025-10-22,4,Central Norwich,Phone snatched in Central Norwich
+52.624751,1.314611,harassment,2025-10-21,3,St Stephens Street,Street harassment incident in St Stephens Street
+52.618379,1.310999,theft,2025-10-20,4,St Stephens Street,Bag theft reported in St Stephens Street
+52.640619,1.31937,assault,2025-10-17,4,North Norwich,Physical assault reported in North Norwich
+52.636151,1.289398,harassment,2025-10-15,2,Chapel Field,Following and harassment in Chapel Field
+52.63858,1.299688,robbery,2025-10-13,5,North Norwich,Armed robbery at North Norwich
+52.619578,1.301071,theft,2025-10-09,3,St Stephens Street,Phone snatched in St Stephens Street
+52.634011,1.305801,assault,2025-10-08,4,Chapel Field,Physical assault reported in Chapel Field
+52.6244,1.309185,robbery,2025-10-06,5,St Stephens Street,Mugging reported in St Stephens Street
+52.636618,1.279107,harassment,2025-10-04,4,North Norwich,Street harassment incident in North Norwich
+52.655583,1.309912,robbery,2025-09-30,5,North Norwich,Mugging reported in North Norwich
+52.615507,1.277317,harassment,2025-09-30,3,Central Norwich,Verbal intimidation near Central Norwich
+52.62493,1.283728,harassment,2025-09-28,4,Central Norwich,Street harassment incident in Central Norwich
+52.618492,1.310338,harassment,2025-09-26,4,St Stephens Street,Verbal intimidation near St Stephens Street
+52.63863,1.309357,harassment,2025-09-23,2,Chapel Field,Unwanted approach reported in Chapel Field
+52.619481,1.299924,drug_activity,2025-09-23,2,St Stephens Street,Drug paraphernalia found in St Stephens Street
+52.646098,1.285075,assault,2025-09-23,3,North Norwich,Physical assault reported in North Norwich
+52.65201,1.300047,theft,2025-09-20,3,North Norwich,Bag theft reported in North Norwich
+52.630175,1.287606,assault,2025-09-20,5,Prince of Wales Road,Unprovoked assault near Prince of Wales Road
+52.658467,1.331629,robbery,2025-09-18,4,North Norwich,Mugging reported in North Norwich
+52.634256,1.295257,assault,2025-09-18,3,Chapel Field,Physical assault reported in Chapel Field
+52.623175,1.313105,theft,2025-09-14,3,St Stephens Street,Wallet stolen from St Stephens Street visitor
+52.630529,1.305038,theft,2025-09-12,3,Central Norwich,Bag theft reported in Central Norwich
+52.614134,1.272773,theft,2025-09-12,4,South Norwich,Bag theft reported in South Norwich
