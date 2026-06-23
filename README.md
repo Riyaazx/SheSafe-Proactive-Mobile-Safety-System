@@ -2,6 +2,12 @@
 
 SheSafe is my final-year dissertation project at Coventry University. It's a Flutter Android app built around personal safety — live risk-aware route planning, motion anomaly detection, safe-word emergency dispatch, and incident recording, all running directly on your phone with no cloud backend required.
 
+🎥 Project Demo
+
+▶ Watch the SheSafe application demo - https://youtu.be/clXPXkwmGTI
+
+1. Scope and Objectives
+
 ## 1. Scope and Objectives
 
 ### What SheSafe does
