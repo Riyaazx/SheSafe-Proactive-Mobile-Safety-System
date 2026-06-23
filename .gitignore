@@ -1,0 +1,62 @@
+# Windows system files
+
+desktop.ini
+Thumbs.db
+ehthumbs.db
+
+# Flutter/Dart generated files
+
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Python generated files
+
+**pycache**/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Secrets and environment variables
+
+.env
+.env.*
+*.secret
+secrets.json
+
+# IDE
+
+.idea/
+.vscode/
+*.iml
+
+# Android local configuration and signing files
+
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# iOS generated files
+
+ios/Pods/
+ios/.symlinks/
+
+# macOS
+
+.DS_Store
+
+# Logs and temporary test outputs
+
+*.log
+run_log.txt
+test_output.txt
+
+# Research datasets kept locally
+
+datasets/
